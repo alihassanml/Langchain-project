@@ -83,7 +83,7 @@ st.sidebar.title('Chose Langchain Model')
 pages = st.sidebar.selectbox(
    
     "Chose Langchain Model",
-    ("Langchain Pdf","Langchain Chat Model", "Image Processing")
+    ( "Image Processing","Langchain Pdf","Langchain Chat Model")
     )
 
 
