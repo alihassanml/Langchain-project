@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /
+
+# Block access to sensitive directories
+Disallow: /private/
+Disallow: /temp/
+
+# Allow specific bots to access everything
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
