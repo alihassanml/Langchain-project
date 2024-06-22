@@ -137,7 +137,9 @@ def user_input(user_question):
 
 
 def pdf():
+    
     st.title('LangChain Gemini Pdf Reader')
+    st.caption('If you face any Error Its Cloud problem copy code and try on it')
     user_input_text = st.text_input('Enter question')
     submit_question = st.button('Ask Question')
     if submit_question:
